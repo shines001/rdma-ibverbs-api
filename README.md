@@ -4,15 +4,12 @@
 
 
 ============代码说明=====================  
-rdma-common.c   rdma-common.h  为客户端和服务端共享的代码，用以减少维护工作量
-
-rdma-client.c   rdma-client.h  客户端的实现
-
-rdma-server.c   rdma-server.h  服务端的实现
-
-main-client.c  和 main-server.c 分别为客户端服务端 调用的者， 在生产中需要有一定的封装
-
-
+rdma-common.c   rdma-common.h  为客户端和服务端共享的代码，用以减少维护工作量  
+rdma-client.c   rdma-client.h  客户端的实现  
+rdma-server.c   rdma-server.h  服务端的实现  
+main-client.c  和 main-server.c 分别为客户端服务端 调用的者， 在生产中需要有一定的封装  
+  
+    
 
 ==========  example ==============
 
