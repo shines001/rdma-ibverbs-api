@@ -4,14 +4,13 @@
 ========= 代码说明 ===============
 
 rdma-common.c   rdma-common.h  为客户端和服务端共享的代码，用以减少维护工作量
-
 rdma-client.c   rdma-client.h  客户端的实现
-
 rdma-server.c   rdma-server.h  服务端的实现
 
 
 
 ==========  example ==============
+
 client 实现了一个客户端程序，  运行：  ./rdma-client    send_recv/read/write   [ipv4]
 server 实现了一个服务端程序,   运行：  ./rdma-server
 通过客户端控制可分别测试   send recv 操作，  read 操作, write操作；
@@ -26,6 +25,7 @@ ipv4可以是服务器上所有 rdma 网卡的ip
 
 
 ============ to do ==========
+
 1,  目前的代码为测试代码，还没有加入生产环境中的日志系统
 2， 需要界定短消息和长消息的大小限制,  目前假设 4k以下为短消息，采用 send/recv模式
 3,  缺少连接报错或者操作报错处理机制
