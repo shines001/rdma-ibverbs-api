@@ -2,9 +2,13 @@
 
 
 ========= 代码说明 ===============
+
 rdma-common.c   rdma-common.h  为客户端和服务端共享的代码，用以减少维护工作量
+
 rdma-client.c   rdma-client.h  客户端的实现
+
 rdma-server.c   rdma-server.h  服务端的实现
+
 
 
 ==========  example ==============
